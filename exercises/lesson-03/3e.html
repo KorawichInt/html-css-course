@@ -1,0 +1,46 @@
+<!-- Lesson 3 Exercises : Hovers, Transitions, Shadows
+Use CSS to recreate these buttons from famous websites:
+(color don't have to be perfect, try to pick colors that are close enough)
+PS. I use color picker to help me pick colors (Powertoy tools).
+3e. LinkedIn (background color, border width) -->
+
+<style>
+    .apply-button {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 18px;
+        width: 220px;
+        height: 40px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+
+    .apply-button:hover {
+        background-color: rgb(0, 56, 119);
+    }
+
+    .save-button {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        font-weight: bold;
+        border-color: rgb(10, 102, 194);
+        border-width: 1px;
+        border-radius: 20px;
+        width: 80px;
+        height: 40px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s; 
+    }
+
+    .save-button:hover {
+        border-width: 2px;
+        background-color: rgb(220, 235,253);
+    }
+</style>
+
+<button class="apply-button">Apply on company website</button>
+<button class="save-button">Save</button>

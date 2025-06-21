@@ -1,0 +1,25 @@
+<!-- Lesson 3 Exercises : Hovers, Transitions, Shadows
+Use CSS to recreate these buttons from famous websites:
+(color don't have to be perfect, try to pick colors that are close enough)
+PS. I use color picker to help me pick colors (Powertoy tools).
+3c. GitHub (shadow) -->
+
+<style>
+    button {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        width: 90px;
+        height: 40px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+    }
+
+    button:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<button>Sign up</button>
