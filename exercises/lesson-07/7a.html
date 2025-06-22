@@ -1,0 +1,62 @@
+<!-- For these exercises, find any .jpg .png or .webp image on the internet to practice with:
+7a. Load the image, set width to 200opx and add rouded corners
+7b. Make the image a square, center the image within the square
+7c. Make the image a circle (using border-radious) -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 7a.-7c.</title>
+
+        <style>
+            p {
+                font-family: Arial;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .img-7a {
+                width: 200px;
+                border-radius: 10px;
+            }
+
+            .img-7b {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .img-7c {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <p class="ex-7a">
+            7a. width: 200px, rounded corners
+        </p>
+
+        <img class="img-7a" src="..\assets\00006.jpg">
+
+        <p>
+            7b. square, center
+        </p>
+
+        <img class="img-7b" src="..\assets\00006.jpg">
+
+        <p>
+            7c. circle
+        </p>
+
+        <img class="img-7c" src="..\assets\00006.jpg">
+
+
+    </body>
+</html>
