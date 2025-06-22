@@ -1,0 +1,72 @@
+<!-- 
+Lesson 8 Exercises - Display Block and Inline-Block
+Recreate the following designs:
+8e. Uber request-a-ride-form
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 8e</title>
+        <style>
+            .request-a-ride {
+                font-family: Arial;
+                font-size: 26px;
+                margin-top: 0;
+                margin-bottom: 20px;;
+            }
+
+            .pickup-location-bar,
+            .destination-bar {
+                display: block;
+                background-color: rgb(240, 240, 240);
+                border: none;
+                margin-top: 6px;
+                margin-bottom: 6px;
+                width: 250px;
+                font-size: 12px;
+                padding-left: 16px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-color: rgb(220, 220, 220);
+            }
+            .request-button {
+                background-color: black;
+                color: white;
+                font-size: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 14px;
+                padding-right: 14px;
+                border: none;
+                cursor: pointer;
+                margin-top: 18px;
+            }
+            .schedule-button {
+                background-color: rgb(220, 220, 220);
+                color: black;
+                border: none;
+                font-size: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 14px;
+                padding-right: 14px;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <p class="request-a-ride">Request a ride now</p>
+        <input class="pickup-location-bar" type="text" placeholder="Enter pickup location">
+        <input class="destination-bar" type="text" placeholder="Enter destination">
+        <button class="request-button">Request now</button>
+        <button class="schedule-button">Schedule for later</button>
+        
+    </body>
+</html>
+
+

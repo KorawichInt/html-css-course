@@ -1,0 +1,43 @@
+<!-- Lesson 8 Exercises - Display Block and Inline-Block
+8c. Download Google's logo and craete the google.com search from 
+- We created the text box in exercise 7e.
+- For now, position the logo with margin (we'll learn better way to do this later) -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 8b</title>
+        <style>
+            .google-logo {
+                width: 200px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .search-bar {
+                font-size: 14px;
+                padding-left: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: none;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                width: 400px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <img class="google-logo" src="..\assets\google_logo.png">
+        <input class="search-bar" type="text" placeholder="Search Google or type a URL">
+    
+
+    </body>
+</html>
+
+
