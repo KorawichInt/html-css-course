@@ -6,124 +6,158 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-        <style>
-            p {
-                font-family: Roboto, Arial;
-            }
-
-            .search-bar {
-                font-size: 14px;
-                display: block;
-            }
-            
-            .video-preview {
-                width: 320px;
-                display: inline-block;
-                vertical-align: top;
-                margin-right: 15px;
-            }
-            
-            .thumbnail-row {
-                margin-bottom: 10px;
-            }
-            
-            .thumbnail {
-                width: 320px;
-            }
-
-            .channel-picture {
-                display: inline-block;
-                border-radius: 50%;
-                vertical-align: top;
-            }
-
-            .profile-picture {
-                width: 40px;
-                border-radius: 50%;
-            }
-
-            .video-info {
-                display: inline-block;
-                width: 268px;
-                margin-left: 8px;
-            }
-
-            .video-title {
-                margin-top: 0;
-                margin-bottom: 0;
-                font-size: 15px;
-                line-height: 20px;
-                font-weight: 500;
-            }
-
-            .video-author {
-                font-size: 14px;
-                margin-top: 8px;
-                margin-bottom: 0;
-                font-weight: 500;
-            }
-
-            .video-stats {
-                font-size: 14px;
-                margin-top: 2px;
-                font-weight: 500;
-            }
-
-        </style>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
     </head>
 
     <body>
-        <input class="search-bar" type="text" placeholder="Search">
-
-        <div class="video-preview">
-            <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/just_the_two_of_us.avif">
+        <div class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
             </div>
-
-            <div>
-                <div class="channel-picture">
-                    <img class="profile-picture" src="channel-pictures/Grover_Washington_Jr_Logo.jpg">
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                </button>
+            </div>
+            <div class="right-section">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <img class="current-user-picture" src="channel-pictures/channel-picture-a.jpg">
+            </div>
+        </div>
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail1.avif">
                 </div>
-
-                <div class="video-info">
-                    <p class="video-title">
-                        <strong>Just the Two of Us (feat. Bill Withers)</strong>
-                    </p>
-
-                    <p class="video-author">
-                        Grover Washington, Jr. - Topic 
-                    </p>
-
-                    <p class="video-stats">
-                        การดู 169 ล้าน ครั้ง &#183 8 ปีที่ผ่านมา
-                    </p>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-picture1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Just the Two of Us (feat. Bill Withers)</strong>
+                        </p>
+                        <p class="video-author">
+                            Grover Washington, Jr. - Topic 
+                        </p>
+                        <p class="video-stats">
+                            การดู 169 ล้าน ครั้ง &#183 8 ปีที่ผ่านมา
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div  class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail2.avif">
+                </div>
+                <div class="video-info-grid">
+                    <div  class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-picture2.png">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Knockin' on Heaven's Door</strong>
+                        </p>
+                        <p class="video-author">
+                            Guns N' Roses
+                        </p>
+                        <p class="video-stats">
+                            การดู 259 ล้าน ครั้ง &#183 7 ปีที่ผ่านมา
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail3.avif">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-picture3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>John Mayer - You're Gonna Live Forever in Me (Audio)</strong>
+                        </p>
+                        <p class="video-author">
+                            John Mayer 
+                        </p>
+                        <p class="video-stats">
+                            การดู 53 ล้าน ครั้ง &#183 8 ปีที่ผ่านมา
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div  class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail4.avif">
+                </div>
+                <div class="video-info-grid">
+                    <div  class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-picture4.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Lewis Capaldi - Someone You Loved</strong>
+                        </p>
+                        <p class="video-author">
+                            Lewis Capaldi
+                        </p>
+                        <p class="video-stats">
+                            การดู 1 พันล้าน ครั้ง &#183 5 ปีที่ผ่านมา
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div  class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail5.avif">
+                </div>
+                <div class="video-info-grid">
+                    <div  class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-picture5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>Fujii Kaze - Tabiji (Official Music Video)</strong>
+                        </p>
+                        <p class="video-author">
+                            Fujii Kaze
+                        </p>
+                        <p class="video-stats">
+                            การดู 32 ล้าน ครั้ง &#183 4 ปีที่ผ่านมา
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail6.avif">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-pictures/channel-picture6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <strong>aespa 에스파 'Whiplash' MV</strong>
+                        </p>
+                        <p class="video-author">
+                            SMTOWN
+                        </p>
+                        <p class="video-stats">
+                            การดู 192 ล้าน ครั้ง &#183 8 เดือนที่ผ่านมา
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="video-preview">
-            <div  class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/knocking_on_heaven_door.avif">
-            </div>
-
-            <div>
-                <div  class="channel-picture">
-                    <img class="profile-picture" src="channel-pictures\Guns-N-Roses-Logo.png">
-                </div>
-                
-                <div class="video-info">
-                    <p class="video-title">
-                        <strong>Knockin' on Heaven's Door</strong>
-                    </p>
-                    <p class="video-author">
-                        Guns N' Roses
-                    </p>
-                    <p class="video-stats">
-                        การดู 259 ล้าน ครั้ง &#183 7 ชั่วโมงที่ผ่านมา
-                    </p>
-                </div>
-            </div>
-        </div>
     </body>
 </html>
