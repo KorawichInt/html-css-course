@@ -1,5 +1,6 @@
 .thumbnail-row {
     margin-bottom: 10px;
+    position: relative;
 }
 
 .thumbnail {
@@ -46,4 +47,16 @@
     font-size: 14px;
     margin-top: 2px;
     font-weight: 500;
+}
+
+.video-time {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 6px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
 }
